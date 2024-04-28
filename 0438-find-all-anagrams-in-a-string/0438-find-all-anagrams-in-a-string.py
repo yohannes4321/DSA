@@ -10,8 +10,6 @@ class Solution:
         for right in range(len(p)):
             hash_mapp[p[right]] = 1 + hash_mapp.get(p[right], 0)
 
-        # Initialize hash_maps with frequency counts for the first len(p) characters in s
-        for right in range(len(p)):
             hash_maps[s[right]] = 1 + hash_maps.get(s[right], 0)
 
         # Check if the first window is an anagram
