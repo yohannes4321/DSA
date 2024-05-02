@@ -1,26 +1,17 @@
 class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
-      
-         
-        # Create a dictionary to store next greater elements
-        next_greater = {}
-        stack = []
-
-        # Iterate through nums2
-        for num in nums2:
-            while stack and num > stack[-1]:
-                next_greater[stack.pop()] = num
-            stack.append(num)
-
-        # Set remaining elements in the stack to -1
-        while stack:
-            next_greater[stack.pop()] = -1
-
-        # Find next greater elements for nums1
-        result = []
-        for num in nums1:
-            result.append(next_greater.get(num, -1))
-
-        return result
-
-    
+        hash_map={nums:index for index,nums in enumerate (nums1)}
+        res=[-1]*(len(nums1))
+        stack=[]
+        for i in range(len(nums2)):
+            current=nums2[i]
+            while stack and current > stack[-1]:# this show us that current value is greatter than hte stack top value and we use while loop to go from the top to bottom 
+                n=stack.pop()
+                ind=hash_map[n]
+                res[ind]=current
+                print(current)
+            if current in hash_map:
+                stack.append(current)
+        return res
+                
+        
