@@ -26,12 +26,13 @@ class MyLinkedList:
         newnode = Node(val)
         if not self.head:
             self.head = newnode
+         
         else:
-            curr = self.head
+            curr=self.head
             while curr.next:
-                curr = curr.next
-            curr.next = newnode
-        self.size += 1
+                curr=curr.next
+            curr.next=newnode
+        self.size+=1
 
     def addAtIndex(self, index: int, val: int) -> None:
         if index < 0 or index > self.size:
