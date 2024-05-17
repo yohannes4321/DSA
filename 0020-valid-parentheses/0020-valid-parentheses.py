@@ -1,18 +1,16 @@
 class Solution:
     def isValid(self, s: str) -> bool:
         stack=[]
-        hash_map={')':'(', '}':'{', ']' :'['}
-        for i in s :
-            if i in hash_map:# only the closing partenssis is the key of the hashmap so if found in hash map it is closed parthiesis 
-            # this is for the closing breackts
-                if stack and stack[-1]==hash_map[i]:
+        hash_map={")":"(","}":"{","]":"["}
+        #the key is the closed parthesisi and value is open
+        for i in s:
+            if i in hash_map :
+                if stack and hash_map[i]==stack[-1]:
                     stack.pop()
                 else:
-
                     return False
             else:
                 stack.append(i)
-        if stack: 
-            return False
-        else:
+        if not stack:
             return True
+            
