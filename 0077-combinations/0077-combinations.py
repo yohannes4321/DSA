@@ -1,18 +1,17 @@
-
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
-        # enumeration
         res=[]
-        def backtracking(start,comb):
-            #basecase
-            if len(comb)==k:
-                res.append(comb[:])
-                return
-            for i in range(start,n+1):
-                comb.append(i)
-                backtracking(i+1,comb)
-                comb.pop()
-                
+        def backtrack (empty_list,start):
             
-        backtracking(1,[])   
+            if len(empty_list)==k:
+                res.append(empty_list[:])
+                return 
+                
+           
+            for i in range(start,n+1):
+                empty_list.append(i)
+                backtrack(empty_list,i+1)
+                empty_list.pop()
+            
+        backtrack([ ],1)
         return res
