@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/yohannes4321/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0560-subarray-sum-equals-k](https://github.com/yohannes4321/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [2102-find-the-middle-index-in-array](https://github.com/yohannes4321/DSA/tree/master/2102-find-the-middle-index-in-array) |
 ## Math
 |  |
@@ -22,5 +23,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/yohannes4321/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [2102-find-the-middle-index-in-array](https://github.com/yohannes4321/DSA/tree/master/2102-find-the-middle-index-in-array) |
+## Hash Table
+|  |
+| ------- |
+| [0560-subarray-sum-equals-k](https://github.com/yohannes4321/DSA/tree/master/0560-subarray-sum-equals-k) |
 <!---LeetCode Topics End-->
