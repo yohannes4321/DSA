@@ -1,14 +1,18 @@
-class Solution(object):
-    def subarraySum(self, nums, k):
-        # i am gona use hashmap
-        hash_map={0:1} # intilazing the hash_map with sum of 0 and frequancy of 1
+class Solution:
+    def subarraySum(self, nums: List[int], k: int) -> int:
         sum_t=0
-        counter=0
-        for i in range(len(nums)):
-            sum_t+= nums[i]
-            complement=sum_t-k
-            if complement in hash_map:
-                
-                counter+=hash_map[complement]
-            hash_map[sum_t]=hash_map.get(sum_t,0)+1            
-        return counter
+        res=0
+        freq_sum={0:1}
+        diff=0
+        for i in nums:
+            sum_t+=i
+            diff = sum_t -k
+            res+=freq_sum.get(diff,0)
+
+            if sum_t in freq_sum:
+                freq_sum[sum_t]+=1
+            else:
+                freq_sum[sum_t]=1
+        return res
+
+        
