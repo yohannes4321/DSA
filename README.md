@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/yohannes4321/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0886-score-of-parentheses](https://github.com/yohannes4321/DSA/tree/master/0886-score-of-parentheses) |
 ## Stack
 |  |
@@ -30,6 +31,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/yohannes4321/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0560-subarray-sum-equals-k](https://github.com/yohannes4321/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/yohannes4321/DSA/tree/master/1016-subarray-sums-divisible-by-k) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/yohannes4321/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
