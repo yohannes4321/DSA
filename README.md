@@ -6,12 +6,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/yohannes4321/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0071-simplify-path](https://github.com/yohannes4321/DSA/tree/master/0071-simplify-path) |
+| [0394-decode-string](https://github.com/yohannes4321/DSA/tree/master/0394-decode-string) |
 | [0886-score-of-parentheses](https://github.com/yohannes4321/DSA/tree/master/0886-score-of-parentheses) |
 ## Stack
 |  |
 | ------- |
 | [0071-simplify-path](https://github.com/yohannes4321/DSA/tree/master/0071-simplify-path) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/yohannes4321/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0394-decode-string](https://github.com/yohannes4321/DSA/tree/master/0394-decode-string) |
 | [0886-score-of-parentheses](https://github.com/yohannes4321/DSA/tree/master/0886-score-of-parentheses) |
 ## Array
 |  |
@@ -50,4 +52,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0304-range-sum-query-2d-immutable](https://github.com/yohannes4321/DSA/tree/master/0304-range-sum-query-2d-immutable) |
+## Recursion
+|  |
+| ------- |
+| [0394-decode-string](https://github.com/yohannes4321/DSA/tree/master/0394-decode-string) |
 <!---LeetCode Topics End-->
