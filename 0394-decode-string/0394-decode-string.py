@@ -1,19 +1,22 @@
-class Solution:
-    def decodeString(self, s: str) -> str:
+class Solution(object):
+    def decodeString(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
         stack=[]
-        for i in s:
-            if i !=']':
-                stack.append(i)
+        # we use stack apporch 
+        for i in range(len(s)):
+            if s[i] !=']':
+                stack.append(s[i])
             else:
-                string=""
-                while stack[-1]!='[':
-                    
-                    string=stack.pop()+string
-                #to pop the '['
+                substring=''
+                while stack[-1] !='[':
+                    substring=stack.pop() + substring
                 stack.pop()
-                number=""
+                k=''
                 while stack and stack[-1].isdigit():
-                    number=stack.pop()+number
-                string_mul=string*int(number)
-                stack.append(string_mul)
-        return ''.join(stack)
+                    k=stack.pop() +k
+                stack.append(int (k)*substring)
+        return "".join(stack)
+
