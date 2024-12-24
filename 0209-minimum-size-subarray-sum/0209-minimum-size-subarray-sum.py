@@ -1,17 +1,27 @@
-class Solution:
-    def minSubArrayLen(self, target: int, nums: List[int]) -> int:
-        left=0
+class Solution(object):
+    def minSubArrayLen(self, target, nums):
+        """
+        :type target: int
+        :type nums: List[int]
+        :rtype: int
+        """
+        # the array is postive integer so we use sliding window techinque and two pointer
         min_length=float('inf')
-        sum_t=0
-        for r in range(len(nums)):
-            sum_t+=nums[r]
-            while sum_t>=target:
-                min_length=min(min_length,r-left+1)
-                sum_t-=nums[left]
+        sum_value=0
+        left=0
+        for right  in range(len(nums)):
+            sum_value+=nums[right]
+            while sum_value >= target:
+                # now it is vallid so we gona cheack it 
+                min_length=min(min_length,right-left+1)
+                sum_value-=nums[left]
                 left+=1
-             
+        if min_length == float('inf'):
+            return 0
+        else:
+            return min_length
             
-        return min_length if min_length!=float('inf') else 0 
-                
-#max_length we gona calculate after while loop maxlength
-#min_length we gona calculate inside while loop frist before increasing the left index ;
+
+
+
+        
