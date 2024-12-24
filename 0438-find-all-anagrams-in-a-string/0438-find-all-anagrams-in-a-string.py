@@ -1,33 +1,29 @@
-class Solution:
-    def findAnagrams(self, s: str, p: str) -> List[int]:
-        res = []
-        left = 0
-        hash_mapp = {}
-        hash_maps = {}
-        if len(s)<len(p):
-            return []
-        # Initialize hash_mapp with frequency counts for pattern p
-        for right in range(len(p)):
-            hash_mapp[p[right]] = 1 + hash_mapp.get(p[right], 0)
+class Solution(object):
+    def findAnagrams(self, s, p):
+        """
+        :type s: str
+        :type p: str
+        :rtype: List[int]
+        """
+        # LET USE TWO DICTONARY 
 
-            hash_maps[s[right]] = 1 + hash_maps.get(s[right], 0)
-
-        # Check if the first window is an anagram
-        if hash_mapp == hash_maps:
-            res.append(left)
-
-        # Slide the window over s
-        for right in range(len(p), len(s)):
-            # Update hash_maps for the new character at the right end
-            hash_maps[s[right]] = 1 + hash_maps.get(s[right], 0)
-            # Decrease hash_maps for the character at the left end
-            hash_maps[s[left]] -= 1
-            if hash_maps[s[left]] == 0:
-                del hash_maps[s[left]]
-            left += 1
-
-            # Check if the current window is an anagram
-            if hash_mapp == hash_maps:
-                res.append(left)
-
+        p_dict={}
+        s_dict={}
+        res=[]
+        for i in range(len(p)):
+            if p[i] not in p_dict:
+                p_dict[p[i]]=1
+            else:
+                p_dict[p[i]]+=1
+        for i in range(len(s)):
+            if s[i] not in  s_dict:
+                s_dict[s[i]]=1
+            elif s[i] in s_dict:
+                s_dict[s[i]]+=1
+            if i>=len(p):# which means not equell but greater than len(p)
+                s_dict[s[i-len(p)]] -=1
+                if s_dict[s[i-len(p)]]==0:
+                    del s_dict[s[i-len(p)]]
+            if p_dict == s_dict:
+                res.append(i-len(p)+1)
         return res
