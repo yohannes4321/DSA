@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/yohannes4321/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0049-group-anagrams](https://github.com/yohannes4321/DSA/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/yohannes4321/DSA/tree/master/0071-simplify-path) |
 | [0394-decode-string](https://github.com/yohannes4321/DSA/tree/master/0394-decode-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/yohannes4321/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -19,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/yohannes4321/DSA/tree/master/0049-group-anagrams) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/yohannes4321/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0209-minimum-size-subarray-sum](https://github.com/yohannes4321/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/yohannes4321/DSA/tree/master/0238-product-of-array-except-self) |
@@ -47,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/yohannes4321/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0049-group-anagrams](https://github.com/yohannes4321/DSA/tree/master/0049-group-anagrams) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/yohannes4321/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0523-continuous-subarray-sum](https://github.com/yohannes4321/DSA/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/yohannes4321/DSA/tree/master/0560-subarray-sum-equals-k) |
@@ -77,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/yohannes4321/DSA/tree/master/0049-group-anagrams) |
 | [1217-relative-sort-array](https://github.com/yohannes4321/DSA/tree/master/1217-relative-sort-array) |
 ## Counting Sort
 |  |
