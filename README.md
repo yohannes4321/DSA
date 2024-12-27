@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/yohannes4321/DSA/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/yohannes4321/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/yohannes4321/DSA/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1217-relative-sort-array](https://github.com/yohannes4321/DSA/tree/master/1217-relative-sort-array) |
 | [2102-find-the-middle-index-in-array](https://github.com/yohannes4321/DSA/tree/master/2102-find-the-middle-index-in-array) |
 ## Math
 |  |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/yohannes4321/DSA/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/yohannes4321/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/yohannes4321/DSA/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1217-relative-sort-array](https://github.com/yohannes4321/DSA/tree/master/1217-relative-sort-array) |
 ## Sliding Window
 |  |
 | ------- |
@@ -72,4 +74,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/yohannes4321/DSA/tree/master/0209-minimum-size-subarray-sum) |
+## Sorting
+|  |
+| ------- |
+| [1217-relative-sort-array](https://github.com/yohannes4321/DSA/tree/master/1217-relative-sort-array) |
+## Counting Sort
+|  |
+| ------- |
+| [1217-relative-sort-array](https://github.com/yohannes4321/DSA/tree/master/1217-relative-sort-array) |
 <!---LeetCode Topics End-->
