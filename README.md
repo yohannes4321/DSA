@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0394-decode-string](https://github.com/yohannes4321/DSA/tree/master/0394-decode-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/yohannes4321/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0886-score-of-parentheses](https://github.com/yohannes4321/DSA/tree/master/0886-score-of-parentheses) |
+| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/yohannes4321/DSA/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Stack
 |  |
 | ------- |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/yohannes4321/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/yohannes4321/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [1046-max-consecutive-ones-iii](https://github.com/yohannes4321/DSA/tree/master/1046-max-consecutive-ones-iii) |
+| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/yohannes4321/DSA/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/yohannes4321/DSA/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Design
 |  |
