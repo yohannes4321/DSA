@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/yohannes4321/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/yohannes4321/DSA/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1217-relative-sort-array](https://github.com/yohannes4321/DSA/tree/master/1217-relative-sort-array) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/yohannes4321/DSA/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2102-find-the-middle-index-in-array](https://github.com/yohannes4321/DSA/tree/master/2102-find-the-middle-index-in-array) |
 ## Math
 |  |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/yohannes4321/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/yohannes4321/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/yohannes4321/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/yohannes4321/DSA/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Design
 |  |
 | ------- |
@@ -86,4 +88,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1217-relative-sort-array](https://github.com/yohannes4321/DSA/tree/master/1217-relative-sort-array) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/yohannes4321/DSA/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 <!---LeetCode Topics End-->
