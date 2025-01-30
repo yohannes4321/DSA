@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/yohannes4321/DSA/tree/master/0014-longest-common-prefix) |
 | [0049-group-anagrams](https://github.com/yohannes4321/DSA/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/yohannes4321/DSA/tree/master/0071-simplify-path) |
+| [0125-valid-palindrome](https://github.com/yohannes4321/DSA/tree/master/0125-valid-palindrome) |
 | [0394-decode-string](https://github.com/yohannes4321/DSA/tree/master/0394-decode-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/yohannes4321/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0886-score-of-parentheses](https://github.com/yohannes4321/DSA/tree/master/0886-score-of-parentheses) |
@@ -108,4 +109,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1642-water-bottles](https://github.com/yohannes4321/DSA/tree/master/1642-water-bottles) |
+## Two Pointers
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/yohannes4321/DSA/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
