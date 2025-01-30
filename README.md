@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/yohannes4321/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0523-continuous-subarray-sum](https://github.com/yohannes4321/DSA/tree/master/0523-continuous-subarray-sum) |
+| [1642-water-bottles](https://github.com/yohannes4321/DSA/tree/master/1642-water-bottles) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -103,4 +104,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/yohannes4321/DSA/tree/master/0014-longest-common-prefix) |
+## Simulation
+|  |
+| ------- |
+| [1642-water-bottles](https://github.com/yohannes4321/DSA/tree/master/1642-water-bottles) |
 <!---LeetCode Topics End-->
