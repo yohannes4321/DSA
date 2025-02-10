@@ -1,24 +1,22 @@
 class Solution:
     def printVertically(self, s: str) -> List[str]:
-        res = []
-        words = list(s.split())
-        print(words)
-        max_length_of_word = 0
-        for word in words:
-            max_length_of_word = max(len(word), max_length_of_word)
+        list_t=[]
+        str_t=""
+        value=list(s.split())
+        max_value=0
+        for i in value:
+            max_value=max(max_value,len(i))
 
+        for index in range (max_value):
+            # use index as outer loop
+            str_t=""
+            for word in value:
+                if index>=len(word):
+                    str_t+=" "
+                else:
+                    str_t+=word[index]
+            str_t=str_t.rstrip()
+            list_t.append(str_t)
+        return list_t
+        
 
-        print(max_length_of_word)
-        for index in range(max_length_of_word):
-            current_line = ""
-            for word in words:
-                if index >= len(word):
-                    current_line +=" "
-                elif index < len(word):
-
-                    current_line += word[index]
-            current_line=current_line.rstrip()
-            print(current_line)
-
-            res.append(current_line)
-        return res
