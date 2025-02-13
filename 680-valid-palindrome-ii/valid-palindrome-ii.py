@@ -1,23 +1,39 @@
 class Solution:
     def validPalindrome(self, s: str) -> bool:
-       
-        l,r=0,len(s)-1
-        if len(s) < 3:
-            return True
+        count=0
+        left=0
+        right=len(s)-1
+        is_count1=True
+        is_count2=True
+        while left < right:
+            if s[left]!=s[right]:
+                right-=1
+                count+=1
+                
+            else:
+                right-=1
+                left+=1
+        if count>1:
+            is_count1=False
+        count=0
+        left=0
+        right=len(s)-1
+        while left < right:
+            if s[left]!=s[right]:
+                left+=1
+                count+=1
+            else:
+                right-=1
+                left+=1
+        if count > 1:
+            is_count2=False
+        return is_count2 or is_count1
+        
 
-        while l<r:
-            if s[l]!=s[r]:
-                r_string = s[:r]+ s[r+1:]
-                l_string = s[:l]+ s[l+1:]
-                if l_string == l_string[::-1] or r_string == r_string[::-1]:
-                    return True
-                else:
-                    return False
-            l+=1
-            r-=1
-        return True
+
+
+ 
+            
 
     
-# abbab abba
-
-
+ 
