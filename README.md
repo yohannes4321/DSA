@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/yohannes4321/DSA/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/yohannes4321/DSA/tree/master/0049-group-anagrams) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/yohannes4321/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0209-minimum-size-subarray-sum](https://github.com/yohannes4321/DSA/tree/master/0209-minimum-size-subarray-sum) |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/yohannes4321/DSA/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/yohannes4321/DSA/tree/master/0049-group-anagrams) |
 | [1217-relative-sort-array](https://github.com/yohannes4321/DSA/tree/master/1217-relative-sort-array) |
 ## Counting Sort
@@ -112,5 +114,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/yohannes4321/DSA/tree/master/0015-3sum) |
 | [0125-valid-palindrome](https://github.com/yohannes4321/DSA/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
