@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/yohannes4321/DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1217-relative-sort-array](https://github.com/yohannes4321/DSA/tree/master/1217-relative-sort-array) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/yohannes4321/DSA/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [1876-map-of-highest-peak](https://github.com/yohannes4321/DSA/tree/master/1876-map-of-highest-peak) |
 | [2102-find-the-middle-index-in-array](https://github.com/yohannes4321/DSA/tree/master/2102-find-the-middle-index-in-array) |
 ## Math
 |  |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0304-range-sum-query-2d-immutable](https://github.com/yohannes4321/DSA/tree/master/0304-range-sum-query-2d-immutable) |
+| [1876-map-of-highest-peak](https://github.com/yohannes4321/DSA/tree/master/1876-map-of-highest-peak) |
 ## Recursion
 |  |
 | ------- |
@@ -116,4 +118,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/yohannes4321/DSA/tree/master/0015-3sum) |
 | [0125-valid-palindrome](https://github.com/yohannes4321/DSA/tree/master/0125-valid-palindrome) |
+## Breadth-First Search
+|  |
+| ------- |
+| [1876-map-of-highest-peak](https://github.com/yohannes4321/DSA/tree/master/1876-map-of-highest-peak) |
 <!---LeetCode Topics End-->
