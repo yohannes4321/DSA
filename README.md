@@ -121,14 +121,21 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0801-is-graph-bipartite](https://github.com/yohannes4321/DSA/tree/master/0801-is-graph-bipartite) |
 | [0871-keys-and-rooms](https://github.com/yohannes4321/DSA/tree/master/0871-keys-and-rooms) |
 | [1876-map-of-highest-peak](https://github.com/yohannes4321/DSA/tree/master/1876-map-of-highest-peak) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0801-is-graph-bipartite](https://github.com/yohannes4321/DSA/tree/master/0801-is-graph-bipartite) |
 | [0871-keys-and-rooms](https://github.com/yohannes4321/DSA/tree/master/0871-keys-and-rooms) |
 ## Graph
 |  |
 | ------- |
+| [0801-is-graph-bipartite](https://github.com/yohannes4321/DSA/tree/master/0801-is-graph-bipartite) |
 | [0871-keys-and-rooms](https://github.com/yohannes4321/DSA/tree/master/0871-keys-and-rooms) |
+## Union Find
+|  |
+| ------- |
+| [0801-is-graph-bipartite](https://github.com/yohannes4321/DSA/tree/master/0801-is-graph-bipartite) |
 <!---LeetCode Topics End-->
