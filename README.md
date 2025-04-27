@@ -129,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/yohannes4321/DSA/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/yohannes4321/DSA/tree/master/0801-is-graph-bipartite) |
 | [0871-keys-and-rooms](https://github.com/yohannes4321/DSA/tree/master/0871-keys-and-rooms) |
+| [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/yohannes4321/DSA/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1558-course-schedule-iv](https://github.com/yohannes4321/DSA/tree/master/1558-course-schedule-iv) |
 | [1876-map-of-highest-peak](https://github.com/yohannes4321/DSA/tree/master/1876-map-of-highest-peak) |
 ## Depth-First Search
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-is-graph-bipartite](https://github.com/yohannes4321/DSA/tree/master/0801-is-graph-bipartite) |
 | [0871-keys-and-rooms](https://github.com/yohannes4321/DSA/tree/master/0871-keys-and-rooms) |
 | [0881-loud-and-rich](https://github.com/yohannes4321/DSA/tree/master/0881-loud-and-rich) |
+| [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/yohannes4321/DSA/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1558-course-schedule-iv](https://github.com/yohannes4321/DSA/tree/master/1558-course-schedule-iv) |
 ## Graph
 |  |
@@ -149,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-is-graph-bipartite](https://github.com/yohannes4321/DSA/tree/master/0801-is-graph-bipartite) |
 | [0871-keys-and-rooms](https://github.com/yohannes4321/DSA/tree/master/0871-keys-and-rooms) |
 | [0881-loud-and-rich](https://github.com/yohannes4321/DSA/tree/master/0881-loud-and-rich) |
+| [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/yohannes4321/DSA/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1558-course-schedule-iv](https://github.com/yohannes4321/DSA/tree/master/1558-course-schedule-iv) |
 ## Union Find
 |  |
@@ -160,5 +163,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/yohannes4321/DSA/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/yohannes4321/DSA/tree/master/0210-course-schedule-ii) |
 | [0881-loud-and-rich](https://github.com/yohannes4321/DSA/tree/master/0881-loud-and-rich) |
+| [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/yohannes4321/DSA/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1558-course-schedule-iv](https://github.com/yohannes4321/DSA/tree/master/1558-course-schedule-iv) |
 <!---LeetCode Topics End-->
