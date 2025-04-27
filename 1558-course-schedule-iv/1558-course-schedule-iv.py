@@ -11,7 +11,7 @@ class Solution:
             adj_list[src].append(des)
             indegree[des] += 1
         
-        reachable = [set() for _ in range(numCourses)]  # reachable[i] = set of courses i is prerequisite for
+        reachable=[set() for _ in range(numCourses)] # reachable[i] = set of courses i is prerequisite for
         
         for i in range(numCourses):
             if indegree[i] == 0:
@@ -20,14 +20,15 @@ class Solution:
         while queue:
             node = queue.popleft()
             for neigh in adj_list[node]:
-                reachable[neigh] |= reachable[node]  # inherit prerequisites
-                reachable[neigh].add(node)           # add direct prerequisite
+                reachable[neigh] |= reachable[node]
+                reachable[neigh].add(node)
                 indegree[neigh] -= 1
                 if indegree[neigh] == 0:
                     queue.append(neigh)
         
         ans = []
+      
         for u, v in queries:
-            ans.append(u in reachable[v])
+            ans.append(True if u in reachable[v] else False)
         
         return ans
